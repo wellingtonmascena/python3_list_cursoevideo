@@ -9,4 +9,5 @@ print('O dobro de {} é {}.'.format(numero, dobro))
 print('O triplo de {} é {}.'.format(numero,triplo))
 # Como a operação de raiz quadrada retorna um flutuante podemos colocar .2f para o flutuante
 print('A raiz quadrada de {} é {:.2f}.'.format(numero,raizQuadrada))
+# Usando a função pow() para calcular potência.
 print('A raiz quadrada de {} é {:.2f} usando a função pow()'.format(numero,pow(numero,0.5)))
